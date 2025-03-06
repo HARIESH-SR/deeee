@@ -543,7 +543,7 @@ function App() {
 
       <canvas ref={canvasRef} style={{ display: 'none' }} />
     </div>
-    <br><br><br><br><br><br><br><br><br><br>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   );
 }
 
