@@ -251,8 +251,8 @@ function App() {
       <nav className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center space-x-2">
-            <TreePine className="h-8 w-8 text-green-600" />
-            <h1 className="text-2xl font-bold text-gray-800">Deforestation Detection</h1>
+            
+            <h1 className="text-2xl font-bold text-gray-800">🌿 Deforestation Detection Using Quadtree</h1>
           </div>
         </div>
       </nav>
