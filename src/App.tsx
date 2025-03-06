@@ -262,7 +262,7 @@ function App() {
                 Using AI-powered image processing to track deforestation and environmental changes over time.
             </p>
             <a
-                href="main.html"
+                href=".scroll"
                 className="px-6 py-3 bg-green-500 text-white rounded-full text-lg font-semibold shadow-lg hover:bg-green-600 transition"
             >
                 Start Detection
@@ -274,7 +274,7 @@ function App() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <label className="block font-medium text-gray-700">Before Image</label>
-                <div className="relative border-2 border-dashed border-gray-300 rounded-lg p-6 hover:border-green-500 transition-colors">
+                <div className="relative border-2 border-dashed border-gray-300 rounded-lg p-6 hover:border-green-500 transition-colors scroll">
                   <input
                     type="file"
                     onChange={(e) => handleImageUpload(e, 'before')}
