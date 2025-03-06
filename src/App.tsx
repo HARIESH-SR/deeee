@@ -256,7 +256,18 @@ function App() {
           </div>
         </div>
       </nav>
-
+      <section className="h-screen flex flex-col justify-center items-center text-center p-6">
+            <h1 className="text-5xl font-bold mb-4">🌿 Deforestation Detection Using Quadtree</h1>
+            <p className="text-lg max-w-2xl mb-6">
+                Using AI-powered image processing to track deforestation and environmental changes over time.
+            </p>
+            <a
+                href="main.html"
+                className="px-6 py-3 bg-green-500 text-white rounded-full text-lg font-semibold shadow-lg hover:bg-green-600 transition"
+            >
+                Start Detection
+            </a>
+        </section>
       <main className="max-w-7xl mx-auto px-4 py-8">
         <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
           <form onSubmit={handleSubmit} className="space-y-6">
